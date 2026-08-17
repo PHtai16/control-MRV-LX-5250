@@ -1,0 +1,157 @@
+2026-08-11 16:31:25,065 [DEBUG   ] mrv_lx5250: MRVBackend initialised.
+2026-08-11 16:31:25,252 [DEBUG   ] mrv_lx5250: GUI initialised.
+2026-08-11 16:31:33,903 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:31:33,941 [DEBUG   ] mrv_lx5250: TCP connected; starting auth state machine.
+2026-08-11 16:31:33,942 [DEBUG   ] mrv_lx5250: Waiting for Username prompt …
+2026-08-11 16:31:41,952 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:32:00,670 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:32:00,685 [DEBUG   ] mrv_lx5250: TCP connected; starting auth state machine.
+2026-08-11 16:32:00,685 [DEBUG   ] mrv_lx5250: Waiting for Username prompt …
+2026-08-11 16:32:08,702 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:32:42,690 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:22
+2026-08-11 16:33:00,551 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:33:00,613 [DEBUG   ] mrv_lx5250: TCP connected; starting auth state machine.
+2026-08-11 16:33:00,614 [DEBUG   ] mrv_lx5250: Waiting for Username prompt …
+2026-08-11 16:33:08,617 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:33:56,198 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:33:56,225 [DEBUG   ] mrv_lx5250: TCP connected; starting auth state machine.
+2026-08-11 16:33:56,226 [DEBUG   ] mrv_lx5250: Waiting for Username prompt …
+2026-08-11 16:34:00,282 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:34:01,390 [INFO    ] mrv_lx5250: Application window closing.
+2026-08-11 16:34:09,619 [DEBUG   ] mrv_lx5250: MRVBackend initialised.
+2026-08-11 16:34:09,809 [DEBUG   ] mrv_lx5250: GUI initialised.
+2026-08-11 16:34:21,878 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:34:21,922 [DEBUG   ] mrv_lx5250: TCP connected; starting auth state machine.
+2026-08-11 16:34:21,923 [DEBUG   ] mrv_lx5250: Waiting for Username prompt …
+2026-08-11 16:34:29,925 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:34:47,091 [INFO    ] mrv_lx5250: Application window closing.
+2026-08-11 16:38:00,666 [DEBUG   ] mrv_lx5250: MRVBackend initialised.
+2026-08-11 16:38:00,861 [DEBUG   ] mrv_lx5250: GUI initialised.
+2026-08-11 16:38:11,123 [INFO    ] mrv_lx5250: Connecting to 192.168.1.252:23
+2026-08-11 16:38:11,157 [DEBUG   ] mrv_lx5250: TelnetIACHandler attached to socket.
+2026-08-11 16:38:11,157 [DEBUG   ] mrv_lx5250: TCP connected; TelnetIACHandler active; starting auth state machine.
+2026-08-11 16:38:11,158 [DEBUG   ] mrv_lx5250: Waiting for 'Username: ' prompt (IAC negotiation in progress) …
+2026-08-11 16:38:11,183 [DEBUG   ] mrv_lx5250: IAC WILL 0x01 → replied
+2026-08-11 16:38:11,196 [DEBUG   ] mrv_lx5250: IAC WILL 0x03 → replied
+2026-08-11 16:38:11,197 [DEBUG   ] mrv_lx5250: IAC DO 0x01 → replied
+2026-08-11 16:38:11,199 [DEBUG   ] mrv_lx5250: IAC DO 0x03 → replied
+2026-08-11 16:38:11,206 [DEBUG   ] mrv_lx5250: IAC WONT 0x01 → replied
+2026-08-11 16:38:11,218 [DEBUG   ] mrv_lx5250: Username sent.
+2026-08-11 16:38:11,218 [DEBUG   ] mrv_lx5250: Waiting for 'Password: ' prompt …
+2026-08-11 16:38:11,224 [DEBUG   ] mrv_lx5250: IAC WONT 0x03 → replied
+2026-08-11 16:38:11,224 [DEBUG   ] mrv_lx5250: IAC DONT 0x01 → replied
+2026-08-11 16:38:11,225 [DEBUG   ] mrv_lx5250: IAC WONT 0x03 → replied
+2026-08-11 16:38:11,274 [DEBUG   ] mrv_lx5250: Password sent. [redacted from log]
+2026-08-11 16:38:11,275 [DEBUG   ] mrv_lx5250: Waiting for command prompt 'LX: ' …
+2026-08-11 16:38:11,337 [INFO    ] mrv_lx5250: Authentication successful — 'LX: ' prompt seen.
+2026-08-11 16:38:11,338 [DEBUG   ] mrv_lx5250: Read loop started (IAC-aware).
+2026-08-11 16:38:20,362 [DEBUG   ] mrv_lx5250: Sent command: 'OFF 2'
+2026-08-11 16:38:43,965 [DEBUG   ] mrv_lx5250: Sent command: 'ON 2'
+2026-08-11 16:38:48,734 [DEBUG   ] mrv_lx5250: Sent command: 'STATUS'
+2026-08-11 16:38:51,535 [DEBUG   ] mrv_lx5250: Sent command: 'ISTAT'
+2026-08-11 16:38:53,284 [DEBUG   ] mrv_lx5250: Sent command: 'ENVMON'
+2026-08-11 16:38:54,705 [DEBUG   ] mrv_lx5250: Sent command: 'LIST'
+2026-08-11 16:39:45,852 [DEBUG   ] mrv_lx5250: Sent command: 'LIST'
+2026-08-11 16:40:04,492 [DEBUG   ] mrv_lx5250: Sent command: 'LIST'
+2026-08-11 16:42:03,558 [DEBUG   ] mrv_lx5250: Sent command: 'ENVMON'
+2026-08-11 16:42:05,926 [DEBUG   ] mrv_lx5250: Sent command: 'ISTAT'
+2026-08-11 16:42:07,838 [DEBUG   ] mrv_lx5250: Sent command: 'STATUS'
+2026-08-11 16:42:13,513 [DEBUG   ] mrv_lx5250: Sent command: 'OFF 4'
+2026-08-11 16:42:15,838 [DEBUG   ] mrv_lx5250: Sent command: 'STATUS'
+2026-08-11 16:42:18,648 [DEBUG   ] mrv_lx5250: Sent command: 'ON 4'
+2026-08-11 16:42:20,868 [DEBUG   ] mrv_lx5250: Sent command: 'STATUS'
+2026-08-11 16:43:34,617 [INFO    ] mrv_lx5250: Application window closing.
+2026-08-11 16:43:34,618 [WARNING ] mrv_lx5250: Read loop: Socket error: [WinError 10038] An operation was attempted on something that is not a socket
+2026-08-11 16:43:34,618 [INFO    ] mrv_lx5250: Socket closed by client.
+2026-08-11 16:43:34,619 [DEBUG   ] mrv_lx5250: Read loop exited.
+2026-08-11 16:57:57,340 [DEBUG   ] mrv_backend: MRVBackend initialised.
+2026-08-11 16:57:57,360 [DEBUG   ] mrv.gui: GUI ready.
+2026-08-11 16:58:04,594 [INFO    ] mrv_backend: Connecting -> 192.168.1.252:23
+2026-08-11 16:58:04,656 [DEBUG   ] mrv_backend: TCP established. Starting IAC-aware auth.
+2026-08-11 16:58:04,656 [DEBUG   ] mrv_backend: Awaiting 'Username: ' ...
+2026-08-11 16:58:04,671 [DEBUG   ] mrv_backend: Telnet: WILL 0x01  ->  DONT
+2026-08-11 16:58:04,678 [DEBUG   ] mrv_backend: Telnet: WILL 0x03  ->  DONT
+2026-08-11 16:58:04,678 [DEBUG   ] mrv_backend: Telnet: DO   0x01  ->  WONT
+2026-08-11 16:58:04,678 [DEBUG   ] mrv_backend: Telnet: DO   0x03  ->  WONT
+2026-08-11 16:58:04,742 [DEBUG   ] mrv_backend: Telnet: WONT 0x01  (no reply)
+2026-08-11 16:58:04,742 [DEBUG   ] mrv_backend: Telnet: WONT 0x03  (no reply)
+2026-08-11 16:58:04,743 [DEBUG   ] mrv_backend: Telnet: DONT 0x01  (no reply)
+2026-08-11 16:58:04,743 [DEBUG   ] mrv_backend: Telnet: WONT 0x0d  (no reply)
+2026-08-11 16:58:04,744 [DEBUG   ] mrv_backend: Username sent.
+2026-08-11 16:58:04,744 [DEBUG   ] mrv_backend: Awaiting password or command prompt ...
+2026-08-11 16:58:04,823 [DEBUG   ] mrv_backend: Password sent.  [REDACTED FROM LOG]
+2026-08-11 16:58:04,824 [DEBUG   ] mrv_backend: Awaiting 'LX: ' command prompt ...
+2026-08-11 16:58:04,892 [INFO    ] mrv_backend: Authenticated — LX: prompt received.
+2026-08-11 16:58:04,893 [DEBUG   ] mrv_backend: Read loop started.
+2026-08-11 16:58:27,619 [DEBUG   ] mrv_backend: CMD -> 'ON 3'
+2026-08-11 16:58:30,523 [DEBUG   ] mrv_backend: CMD -> 'OFF 3'
+2026-08-11 16:58:35,726 [DEBUG   ] mrv_backend: CMD -> 'ON 3'
+2026-08-11 16:59:16,296 [DEBUG   ] mrv_backend: CMD -> 'SHOW'
+2026-08-11 16:59:22,797 [DEBUG   ] mrv_backend: CMD -> 'SHOW system'
+2026-08-11 17:00:07,557 [WARNING ] mrv_backend: Read loop terminated: recv error: [WinError 10038] An operation was attempted on something that is not a socket
+2026-08-11 17:00:07,557 [INFO    ] mrv_backend: Disconnected.
+2026-08-11 17:00:07,558 [DEBUG   ] mrv_backend: Read loop exited.
+2026-08-11 17:00:16,684 [INFO    ] mrv.gui: Window closing.
+2026-08-11 17:00:47,299 [DEBUG   ] mrv_backend: MRVBackend initialised.
+2026-08-11 17:00:47,311 [DEBUG   ] mrv.gui: GUI ready.
+2026-08-11 17:00:53,486 [INFO    ] mrv_backend: Connecting -> 192.168.1.252:23
+2026-08-11 17:00:53,502 [DEBUG   ] mrv_backend: TCP established. Starting IAC-aware auth.
+2026-08-11 17:00:53,502 [DEBUG   ] mrv_backend: Awaiting 'Username: ' ...
+2026-08-11 17:00:53,514 [DEBUG   ] mrv_backend: Telnet: WILL 0x01  ->  DONT
+2026-08-11 17:00:53,520 [DEBUG   ] mrv_backend: Telnet: WILL 0x03  ->  DONT
+2026-08-11 17:00:53,520 [DEBUG   ] mrv_backend: Telnet: DO   0x01  ->  WONT
+2026-08-11 17:00:53,521 [DEBUG   ] mrv_backend: Telnet: DO   0x03  ->  WONT
+2026-08-11 17:00:53,591 [DEBUG   ] mrv_backend: Telnet: WONT 0x01  (no reply)
+2026-08-11 17:00:53,592 [DEBUG   ] mrv_backend: Telnet: WONT 0x03  (no reply)
+2026-08-11 17:00:53,592 [DEBUG   ] mrv_backend: Telnet: DONT 0x01  (no reply)
+2026-08-11 17:00:53,593 [DEBUG   ] mrv_backend: Telnet: WONT 0x03  (no reply)
+2026-08-11 17:00:53,594 [DEBUG   ] mrv_backend: Username sent.
+2026-08-11 17:00:53,594 [DEBUG   ] mrv_backend: Awaiting password or command prompt ...
+2026-08-11 17:00:53,674 [DEBUG   ] mrv_backend: Password sent.  [REDACTED FROM LOG]
+2026-08-11 17:00:53,675 [DEBUG   ] mrv_backend: Awaiting 'LX: ' command prompt ...
+2026-08-11 17:00:53,752 [INFO    ] mrv_backend: Authenticated — LX: prompt received.
+2026-08-11 17:00:53,762 [DEBUG   ] mrv_backend: Read loop started.
+2026-08-11 17:02:08,153 [DEBUG   ] mrv_backend: CMD -> 'status'
+2026-08-11 17:02:47,665 [DEBUG   ] mrv_backend: CMD -> 'OFF 2'
+2026-08-11 17:04:26,439 [DEBUG   ] mrv_backend: CMD -> 'STATUS'
+2026-08-11 17:04:43,557 [DEBUG   ] mrv_backend: CMD -> 'ISTAT'
+2026-08-11 17:05:15,305 [DEBUG   ] mrv_backend: CMD -> 'VERSION'
+2026-08-11 17:06:53,393 [DEBUG   ] mrv_backend: CMD -> 'SHOW'
+2026-08-11 17:07:01,481 [DEBUG   ] mrv_backend: CMD -> 'SHOW network'
+2026-08-11 17:08:21,929 [DEBUG   ] mrv_backend: CMD -> 'PING network'
+2026-08-11 17:08:30,700 [DEBUG   ] mrv_backend: CMD -> 'PING 192.168.1.1'
+2026-08-11 17:08:38,511 [DEBUG   ] mrv_backend: CMD -> 'PING 192.168.1.200'
+2026-08-11 17:09:14,845 [DEBUG   ] mrv_backend: CMD -> 'DELETE'
+2026-08-11 17:09:18,629 [DEBUG   ] mrv_backend: CMD -> 'CREATE'
+2026-08-11 17:09:40,448 [INFO    ] mrv.gui: Window closing.
+2026-08-11 17:09:40,449 [WARNING ] mrv_backend: Read loop terminated: recv error: [WinError 10038] An operation was attempted on something that is not a socket
+2026-08-11 17:09:40,449 [INFO    ] mrv_backend: Disconnected.
+2026-08-11 17:09:40,450 [DEBUG   ] mrv_backend: Read loop exited.
+2026-08-11 17:33:26,004 [DEBUG   ] mrv_backend: MRVBackend initialised.
+2026-08-11 17:33:26,042 [DEBUG   ] mrv.gui: GUI ready.
+2026-08-11 17:33:32,153 [INFO    ] mrv_backend: Connecting -> 192.168.1.252:23
+2026-08-11 17:33:32,255 [DEBUG   ] mrv_backend: TCP established. Starting IAC-aware auth.
+2026-08-11 17:33:32,255 [DEBUG   ] mrv_backend: Awaiting 'Username: ' ...
+2026-08-11 17:33:32,256 [DEBUG   ] mrv_backend: Telnet: WILL 0x01  ->  DONT
+2026-08-11 17:33:32,264 [DEBUG   ] mrv_backend: Telnet: WILL 0x03  ->  DONT
+2026-08-11 17:33:32,265 [DEBUG   ] mrv_backend: Telnet: DO   0x01  ->  WONT
+2026-08-11 17:33:32,265 [DEBUG   ] mrv_backend: Telnet: DO   0x03  ->  WONT
+2026-08-11 17:33:32,334 [DEBUG   ] mrv_backend: Telnet: WONT 0x01  (no reply)
+2026-08-11 17:33:32,334 [DEBUG   ] mrv_backend: Telnet: WONT 0x03  (no reply)
+2026-08-11 17:33:32,335 [DEBUG   ] mrv_backend: Telnet: DONT 0x01  (no reply)
+2026-08-11 17:33:32,335 [DEBUG   ] mrv_backend: Telnet: WONT 0x03  (no reply)
+2026-08-11 17:33:32,336 [DEBUG   ] mrv_backend: Username sent.
+2026-08-11 17:33:32,336 [DEBUG   ] mrv_backend: Awaiting password or command prompt ...
+2026-08-11 17:33:32,412 [DEBUG   ] mrv_backend: Password sent.  [REDACTED FROM LOG]
+2026-08-11 17:33:32,414 [DEBUG   ] mrv_backend: Awaiting 'LX: ' command prompt ...
+2026-08-11 17:33:32,468 [INFO    ] mrv_backend: Authenticated — LX: prompt received.
+2026-08-11 17:33:32,470 [DEBUG   ] mrv_backend: Read loop started.
+2026-08-11 17:33:39,731 [DEBUG   ] mrv_backend: CMD -> 'OFF 2'
+2026-08-11 17:34:00,198 [DEBUG   ] mrv_backend: CMD -> 'OFF 3'
+2026-08-11 17:34:15,383 [DEBUG   ] mrv_backend: CMD -> 'OFF 5'
+2026-08-11 17:34:31,089 [DEBUG   ] mrv_backend: CMD -> 'SHOW'
+2026-08-11 17:34:38,420 [DEBUG   ] mrv_backend: CMD -> 'SHOW network'
+2026-08-11 17:34:47,527 [INFO    ] mrv.gui: Window closing.
+2026-08-11 17:34:47,529 [WARNING ] mrv_backend: Read loop terminated: recv error: [WinError 10038] An operation was attempted on something that is not a socket
+2026-08-11 17:34:47,530 [INFO    ] mrv_backend: Disconnected.
+2026-08-11 17:34:47,532 [DEBUG   ] mrv_backend: Read loop exited.
